@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="topo">
+        <h1>Empresa do Matheus</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">MENU</a> |
+        <a href="cadastro_funcionario.html" class="ativo">Funcionarios</a> | 
+        <a href="demissao.html">Demitir</a> |
+        <a href="listar.html">Listar Funcionarios</a> |
+        <a href="salario.html">Salário</a> 
+    </div>
+    <div class="funcionario">
+            <h2>Cadastrar Cliente</h2>      
+                <label>Nome:</label><br>
+                <input id="funcionario" type="text"><br><br>
+                <label>CPF:</label><br>
+                <input id="cpf" type="text"><br><br>
+                <label>Data de Nascimento:</label><br>
+                <input id="nascimento" type="date" type="text"><br><br>
+                <label>Salário:</label><br>
+                <input id="salario" type="number"><br><br>
+                <label>Função:</label><br>
+                <input id="funcao" type="text"><br><br>
+                <button id="cadastro" onclick="cadastro()">Cadastrar Funcionário</button>
+    </div>
+    <div class="principal" id="listar-funcionario"></div>
+</body>
+</html>

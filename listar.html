@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="topo">
+        <h1>Empresa do Matheus</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">MENU</a> |
+        <a href="cadastro_funcionario.html" class="ativo">Funcionarios</a> | 
+        <a href="demissao.html">Demitir</a> |
+        <a href="listar.html">Listar Funcionarios</a> |
+        <a href="salario.html">Salário</a> 
+    </div>
+    <div class="funcionario">
+            <h2>Listar Funcionário</h2>      
+                <!-- <label>CPF:</label><br>
+                <input id="cpf_listar" type="text"><br><br> -->
+                <button id="listar_funcionarios" onclick="listar_funcionarios_ativos()">Listar Funcionários Ativos</button>
+                <button id="listar_funcionarios" onclick="listar_funcionarios_demitidos()">Listar Funcionários Demitdos</button>
+    </div>
+    <div class="principal" id="listar_funcionario"></div>
+</body>
+</html>

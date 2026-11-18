@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="topo">
+        <h1>Empresa do Matheus</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">MENU</a> |
+        <a href="cadastro_funcionario.html" class="ativo">Funcionarios</a> | 
+        <a href="demissao.html">Demitir</a> |
+        <a href="listar.html">Listar Funcionarios</a> |
+        <a href="salario.html">Salário</a> 
+    </div>
+    <div class="funcionario">
+            <h2>Salário dos Funcionários</h2>      
+                <label>CPF:</label><br>
+                <input id="cpf_salario" type="text"><br><br>
+                <label>Novo Salário:</label><br>
+                <input id="salario_novo" type="text"><br><br>
+                <button id="salario" onclick="atu_salario()">Cadastrar Funcionário</button>
+    </div>
+    <div class="principal" id="listar-atusalario"></div>
+</body>
+</html>
