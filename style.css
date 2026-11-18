@@ -9,7 +9,7 @@ body {
     text-align: center;
     padding: 5px;
     h1 {
-        color: rgb(124, 173, 222);
+        color: rgb(35, 130, 218);
     }
 }
 .menu {
@@ -17,13 +17,22 @@ body {
     padding: 15px;
 }
 .funcionario {
-    width: 80%;
+    width: 500px;
+    background-color: #ffffff;
     margin: 30px auto;
-    padding: 10px;
+    padding: 20px;
+    border: 2px solid black;
 
     h2 {
         color: #0004ff;
     }
+}
+#listar_funcionario{
+    width: 500px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
 }
 input{
     background-color: transparent;
